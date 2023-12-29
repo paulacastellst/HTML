@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EtiquetaSelect</title>
+</head>
+<body>
+    <h1>Select</h1>
+    <h2>Select bàsic</h2>
+    
+    <form>
+        <select>
+        </select>
+    </form>
+    <h2>Etiqueta Option</h2>
+    <form>
+        <label for="language">Tria els llenguatges web que controles</label>
+        <select value="llenguatges" id="languages">
+            <option value="html">HTML</option>
+            <option value="ccs">CCS</option>
+            <option value="javascript">JS</option>
+        </select>
+    <p>ens permet escollir multiple si prement control</p>
+    </form>
+    <select name="llenguatge" multiple>
+        <option value="html">HTML</option>
+        <option value="ccs">CCS</option>
+        <option value="javascript">JavaScript</option>
+    </select>
+    
+    <h2>Etiqueta options avançat</h2>
+    <select name="pets" multiple>
+        <optgroup label="Ocells">
+            <option value="pardal">pardal</option>
+            <option value="cadernera">cadernera</option>
+        </optgroup>
+        <optgroup label="rèptils">
+            <option value="cocodrils">cocodrils</option>
+            <option value="serp">serp</option>
+            <option value="tortuga">tortuga</option>
+            <option value="iguana">iguana</option>
+        </optgroup>
+        <optgroup label="mamifers">
+            <option value="bufal">búfal</option>
+            <option value="lleo">lleó</option>
+            <option value="guineu">guineu</option>
+            <option value="rinoceront">rinoceront</option>
+        </optgroup>
+    </select>
+
+
+
+</body>
+</html>

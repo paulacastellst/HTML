@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs Radio</title>
+</head>
+<body>
+    <p><a href="../HTML1/index.html" target="_blank">Anar a index</a></p>
+    <h1>Inputs tipus Radio</h1>
+    <p>Ens permet construir caselles de selecció multiple</p>
+    <form>
+        <label> Masculí
+        <input type="radio">
+        </label>
+
+    <label>Femení
+        <input type="radio">
+    </label>
+    <label> No binari
+        <input type="radio">
+    </label>
+    <button>Enviar</button> 
+    </form>
+    
+    <h2>Atributs importants</h2>
+    <p>arreglar els problemes del exemple anterior</p>
+    <h4>name</h4>
+    <p>nkjk</p>
+        <form>
+            <label>Masculí</label>
+            <input type="radio" name="gender">
+            <label>Femení</label>
+            <input type="radio" name="gender">
+            <label>No binari</label>
+            <input type="radio" name="gender">
+            <button>Enviar</button>
+        </form>
+    <h4>Atribut value</h4>
+    <p>Valor que enviem al servidor, que surt a diferents files</p>
+        <form>
+            <label>Masculí</label>
+            <input type="radio" name="gender" value="male">
+            <label>Femení</label>
+            <input type="radio" name="gender" value="female">
+            <label>No binari</label>
+            <input type="radio" name="gender" value="no binari">
+            <button>Enviar</button>
+        </form>
+    <h2>Atributs accessoris boolfeans</h2>
+    <ul>
+        <li>checked</li>
+        <li>disabled</li>
+        <li>autofacus</li>
+        <li>required</li>
+    </ul>
+   <h4>required and checked</h4>
+   <p>Predeterminat</p>
+    <form>
+        <div>
+            <label>Masculí</label>
+            <input type="radio" name="gender" value="male" required checked>      
+        </div>
+        <div>
+            <label>Femení</label>
+            <input type="radio" name="gender" value="female" required checked>    
+        </div>
+        <div>
+            <label>Trans (descartat)</label>
+            <input type="radio" name="gender" value="no binari" required checked>    
+        </div>
+        <button>Enviar</button>
+    </form>
+    
+    <h4>autofocus</h4>
+    <p> et recomana una opció</p>
+    <form>
+        <div>
+            <label>Masculí</label>
+            <input type="radio" name="gender" value="male" required checked autofocus>      
+        </div>
+        <div>
+            <label>Femení</label>
+            <input type="radio" name="gender" value="female" required checked autofocus>    
+        </div>
+        <div>
+            <label>Trans (descartat)</label>
+            <input type="radio" name="gender" value="no binari" required checked autofocus>    
+        </div>
+        <button>Enviar</button>
+    </form>
+    <h4>Disable</h4>
+    <p>No et deixa seleccionar</p>
+    <form>
+        <div>
+            <label>Masculí</label>
+            <input type="radio" name="gender" value="male" required checked autofocus disabled>      
+        </div>
+        <div>
+            <label>Femení</label>
+            <input type="radio" name="gender" value="female" required checked autofocus disabled>    
+        </div>
+        <div>
+            <label>Trans (descartat)</label>
+            <input type="radio" name="gender" value="no binari" required checked autofocus disabled>    
+        </div>
+        <button>Enviar</button>
+    </form>
+
+
+</body>
+</html>

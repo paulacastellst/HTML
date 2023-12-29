@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Associar un lable amb input</title>
+</head>
+<body>
+    <h1>Associar label amb input</h1>
+    <p>Codi corresponent:</p>
+    <code>
+    <pre>
+            &lt;form&gt;
+                &lt;label for="name"&gt;Nom&lt;/label&gt;
+                &lt;input id="name"&gt;
+                &lt;button&gt;Enviar formulari&lt;/button&gt;
+            &lt;/form&gt;
+    </pre>
+    </code>
+    <p>Resultat:</p>
+    <form>
+        <label for="name">Nom</label>
+        <input id="name">
+        <button>Enviar formulari</button>
+    </form>
+    <h2>Associació  menys comuna de label amb input</h2>
+    <p>Codi corresponent</p>
+    <code>
+    <pre>&lt;form&gt;
+        &lt;label&gt;
+            Nom
+            &lt;input type="text"&gt;
+        &lt;/label&gt;
+        &lt;button&gt;Enviar formulari amb opció menys comuna&lt;/button&gt;
+       &lt;/form&gt;
+    </pre>
+    </code>
+
+    <p>Resultat:</p>
+   <form>
+    <label>
+        Nom
+        <input type="text">
+    </label>
+    <button>Enviar formulari amb opció menys comuna</button>
+   </form>
+   <p>Si no hi ha atribut tipus text no hi ha dades</p>
+</body>
+</html>

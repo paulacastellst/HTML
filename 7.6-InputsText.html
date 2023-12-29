@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inuts per tipus Text</title>
+</head>
+<body>
+    <p><a href="../HTML1/index.html" target="_blank">Anar a index</a></p>
+   
+    <h1>Inputs tipus text</h1>
+    <p>Si  fiquem type sense text surt text sol.</p>
+    
+    <h2>Atributs habituals</h2>
+    <p>es fa servir els atributs següents</p>
+    
+    <h4>name</h4>
+    <p>Per saber quin formulari controla cada tipus de dada introduïda</p>
+    
+    <h4>max-length</h4>
+    <p>Serveix per limitar caracters dels camps, porta valor numeric, per triar els valors que es poden ficat</p>
+    <form>
+        <input type="text" maxlength="4">
+    </form>
+    
+    <h4>size</h4>
+    <p>Per utilitzar formularis antics per indicar l'amplada de la caixeta</p>
+    <form>
+        <input type="name" maxlength="4" size="5">
+    </form>
+   
+    <h4>value</h4>
+    <p> s'utilitza per posar un valor determinat</p>
+    <form>
+        <input type="text" value="2023" maxlength="4" size="25">
+    </form>
+    <h4>placeholder</h4>
+    <p>Posar un text temporalment, provisional</p>
+    <label for="Birthday_year">Correu electronic</label>
+    <div>
+        <input type="text" size="25" id="email" name="email_work" placeholder="posar aqui el teu correu electronic">
+    </div>
+    <div>
+        <button>Enviar</button>
+    </div>
+    
+    <h4>pattern</h4>
+    <p>Acompanyat amb una expressió regular, inpedeix posar qualsevol text que no siguiel que hem posat</p>
+    <div> 
+        <label type="text" id="birthday_year" name="birthday_year">Any data naixament</label> 
+    </div>
+    <div>
+        <input type="text" id="birthday_year" name="birthday_year" pattern="^[1-9][0-9]{3}$"
+        {12}{0123456789} size="40">
+    </div>
+    <div>
+        <button>Enviar</button>
+    </div>
+    <h4>required</h4>
+    <p>Fa que la casella s'hagi d'omplir obligatoriament, elegantment es posa unesterisc.</p>
+    <form>
+        <div>
+            <label for="birthday_year">Any de naixament</label>
+        </div>
+        <div>
+            <input type="text" id="birthday_year" name="birthday_part" required size="35">
+        </div>
+        <div>
+            <button>Enviar</button>
+        </div>
+    </form>
+
+
+</body>
+</html>

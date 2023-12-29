@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="widrh=device-width">
+<title>Taules</title>
+</head>
+<body>
+<h1>Taules</h1>
+<p>Elements html que serveixen per taular informació</p>
+<h2>&lt;Table&gt;</h2>
+<p>Porta obertura i tencament, va al inici de la taula</p>
+<h2>&lt;tr&gt;</h2>
+<p>porta oberura i tancament, significa tamble row</p>
+<p>td table data, amb obertura itancament, el contingut d'una cel·la</p>
+<h2>Com es posa el color en una columna determinada?</h2>
+<p>Primer de tot ha de tenir al principi un &lt;table border="2"&gt; ja que necesita estar tencat. Desprès hem de fer servir &lt;colgroup&gt; dintre un &lt;col spand="1" style="background-color, i finalment triar el color&gt; al ficar el valor del spand es pot triar un altre obviament, per la columna que vulguis triar</p>
+<table border="2">
+    <colgroup>
+        <col spand="1" style="background-color:red;"></co>  
+    </colgroup>
+    <colgroup>
+        <col spand="3" style="background-color:red;">
+    </colgroup>  
+    <colgroup>
+        <col spand="4" style="background-color:yellow;">
+    </colgroup>  
+    <colgroup>
+        <col spand="5" style="background-color:yellow;"></co>  
+    </colgroup>
+    <colgroup>
+        <col spand="6" style="background-color:red;">
+    </colgroup>  
+    <colgroup>
+        <col spand="4" style="background-color:red;">
+    </colgroup>  
+
+    <tr>
+        <td>Hora</td>
+        <td>Dilluns</td>
+        <td>Dimarts</td>
+        <td>Dimecres</td>
+        <td>Dijous</td>
+        <td>Divendres</td>
+    </tr>
+    <tr>
+        <td>8:30-9:25</td> 
+        <td>Programació</td>
+        <td>Dibuix Tècnic</td>
+        <td>Català</td>
+        <td>Dibuix Tècnic</td>
+        <td>Mates Aplicades</td>
+    </tr>
+    <tr>
+        <td>9:25-10:20</td>
+        <td>Català</td>
+        <td>Mates aplicades</td>
+        <td>Fisica</td>
+        <td>EF</td>
+        <td>Programació</td>
+    </tr>
+    <tr>
+        <td>10:20-11:15</td>
+        <td>Mates</td>
+        <td>Anglès</td>
+        <td>Mates</td>
+        <td>Reptes FiQ</td>
+        <td>Fisica</td>
+    </tr>
+    <tr>
+        <td>11:15-11:45</td>
+        <td>Pati</td>
+        <td>Pati</td>
+        <td>Pati</td>
+        <td>Pati</td>
+        <td>Pati</td>
+    </tr>
+    <tr>
+        <td>11:45-12:15</td>
+        <td>ILEC</td>
+        <td>ILEC</td>
+        <td>ILEC</td>
+        <td>ILEC</td>
+        <td>ILEC</td>
+    </tr>
+    <tr>
+        <td>12:15-13:10</td>
+        <td>Filo</td>
+        <td>Reptes FiQ</td>
+        <td>Filo</td>
+        <td>Mates</td>
+        <td>Dibuix Tècnic</td>
+    </tr>
+    <tr>
+        <td>13:10-14:05</td>
+        <td>Anglès</td>
+        <td>Fisica</td>
+        <td>Tutoría</td>
+        <td>Castellà</td>
+        <td>Anglès</td>
+    </tr>
+    <tr>
+        <td>14:05-15:00</td>
+        <td>Castellà</td>
+        <td>EF</td>
+        <td>Programació</td>
+        <td>Mates Aplicades</td>
+        <td>Reptes FiQ</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
+

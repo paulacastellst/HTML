@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviament Get VS Post</title>
+</head>
+<body>
+    <h1>Enviament Get VS Post</h1>
+    <h2>Metode Get</h2>
+    <p>Aquest es el metode d'entrada a la pagina web quan nosaltres hi entrem a través de la utl. Poseu l'atribut amb dl valor "enviar html" i l'atribut method amb el valor get</p>
+    <h4>Sense atribut name</h4>
+    <form action="enviar.html" method="get">
+        <label for="name">Nom
+        <input type="text" id="name">
+        <label for="surname">Cognom</label>
+        <input type="text" id="surname">
+        <input type="submit">
+    </form>
+    <p>Quan no existeiex el fitxer d'action ens retorna a un error, "Cannon GET/enviar.html</p>
+    <p>Malgrat posem nom als camps no s'envia. Perque amb l'url despres del signe d'interrogació no hi ha cap informació</p>
+    <p>http://127.0.0.1:5500/HTML1/enviar.html?</p>
+    
+    <h4>Amb l'atribut name</h4>
+    
+    <form action="enviar.html" method="get">
+        <label for="name" name="nom">Nom</label>
+        <input type="text" id="name" name="name">
+        <label for="surname">Cognom</label>
+        <input type="text" id="surname" name="surname">
+        <input type="submit">
+    </form>
+    <p>Els names es fiquen als imputs</p>
+    <p>Ens apareixen els camps que hem posat, per exemple = http://127.0.0.1:5500/HTML1/enviar.html?name=Paula&surname=Castells</p>
+
+    <h2>Metode Post</h2>
+    <p>Es un enviament de formulari per la porta del derrere,</p>
+    <form action="enviar.html" method="post">
+        <label for="name" name="nom">Nom</label>
+        <input type="text" id="name" name="name">
+        <label for="surname">Cognom</label>
+        <input type="text" id="surname" name="surname">
+        <input type="submit">
+    </form>
+<p>insepccionan la pàgina, enviar formulari anar pestanya netowrk i despres toca enviar.html</p>
+<h2>Enviar .php</h2>
+</body>
+
+</html>

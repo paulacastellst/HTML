@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCB_Formulari_Informació_personal_jugadors</title>
+</head>
+<body>
+    <h1 style="color:rgb(112, 166, 219)"><b>Futbol Club Barcelona</b></h1>
+    <h2>Formulari d'informació personal jugadors:</h2>
+    
+    <form action="Formulari_nformació_personal_jugadors.php" method="post">
+        <fieldset>
+           <label for="name">Nom</label>
+           <input type="text" id="name" name="name" required> <br><br>
+           <label for="surname">Cognom</label>
+           <input type="text" id="surname" required name="surname"> <br><br>
+          <label for="adress">Adreça</label> <br>
+           <textarea id="address" name="address" cols="75" rows="5" required></textarea><br>
+        </fieldset> <br>
+        <div>
+            <label for="date">Data de naixament:</label>
+        <input type="date" id="date" name="data_naixament"> <br> <br>
+        
+        </div>
+
+        <div>
+            <label for="gender">Insereix gènere:</label><br>
+            <label for="male">Masculí</label>
+            <input type="radio" name="male" value="male" id="gender">
+            <label for="famele">Femení</label>
+            <input type="radio" name="famele" value="female" id="gender">
+            <label for="no_binari">No binari</label>
+            <input type="radio" name="no_binari" value="no_binari" id="gender"> <br><br>
+       
+        </div>
+        
+        
+        <div>
+        <label>Insereix estat civil:</label>
+        <label for="solter">Solter</label>
+        <input type="radio" name="solter" value="solter" checked>
+        <label>Amb parella</label>
+        <input type="radio" name="amb parella" value="amb parella">
+        <label>Casat</label>
+        <input type="radio" name="casat" value="casat"> <br><br>
+        </div>
+       
+        <div>
+        <label for="email">Insereix el teu  email:</label>
+        <input type="email" id="email" name="email" size="30" required /><br><br> 
+        </div>
+       
+        
+        <div>
+        <label for="phone_number">Numero de movil:</label>
+        <input id="phone_number" placeholder="9 xifres sense espais" type="text" maxlength="9" name="phone_number"  required>
+        <br><br>
+        </div>
+
+        <div>
+            <label>Dades de xarxes socials:</label> <br>
+        </div>
+        <label for="instagram">Instagram:</label>
+        <input type="text" id="instagram" name="instagram" placeholder="amb l'arroba al inici" pattern="^@.+"><br>
+        <label for="twitter">Twitter</label>
+        <input type="text" id="twitter" name="twitter" placeholder="amb l'arroba al inici" pattern="^@.+"><br><br>
+        
+       
+        <div>
+            <label for="posicions">Tria la preferencia de posició (pots escollir varies):</label> <div>
+        </div>
+        <label>Defensa centra</label>
+        <input type="checkbox" name="positions" value="defensa centre"><br>
+        <label>Lateral</label>
+        <input type="checkbox" name="positions" value="lateral"><br>
+        <label>Migcampista</label>
+        <input type="checkbox" name="positions" value="migcampista"><br>
+        <label>Devanter centre</label>
+        <input type="checkbox" name="positions" value="devanter centre"><br>
+        <label>Extrem</label>
+        <input type="checkbox" name="positions" value="etrem"><br>
+        <label>Porter</label>
+        <input type="checkbox" name="positions" value="porter"><br><br>
+        </div>
+        
+        <div>
+            <label>Insereix foto del carnet:</label>
+            <input type="file" name="photo" id="photo"> <br><br>
+        </div>
+
+        <div>
+            <label>Color preferent del armariet del vestuari:</label>
+            <input type="color" id="color" name="colr_preferent_armari"><br><br>    
+        </div>
+        
+        <div>
+            <label for="week_travel">Setmana de l'any prefereixen fer el viatge final de temporada:</label>
+            <input type="week" id="week_travel" name="setmana_viatge"> <br><br>
+        </div>
+        
+        <div>
+            <input type="submit" value="Enviar"><br><br>
+        </div>
+
+       </form>
+       
+</body>
+</html>

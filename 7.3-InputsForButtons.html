@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs for Buttons</title>
+</head>
+<body>
+    <h1>Inputs for Buttons</h1>
+    <p>porta atribut type, té 22 valors diferents</p>
+    <h2>&lt;input type="button"&gt; vs &lt;button&gt;</h2>
+    <h2>Dos buttons sense text</h2>
+    <p>Amb codi:</p>
+    <code>
+    <pre>
+        &lt;form&gt;
+            &lt;input type="button"&gt;
+        &lt;/form&gt;
+    </pre>
+    </code>
+    <p>Resultat:</p>
+    <form>
+        <input type="button">
+    </form>
+    <h2>Dos buttons amb el mateix text</h2>
+    <p>Amb codi:</p>
+    <code>
+    <pre>
+        &lt;form&gt;
+            &lt;input type="button" value="Enviar"&gt;
+            &lt;button>Enviar&lt;/button&gt;
+        &lt;/form&gt;
+    </pre>
+    </code>
+    <p>Resultat:</p>
+    <form>
+        <input type="button" value="Enviar">
+        <button>Enviar</button>
+    </form>
+    <h2>Input tipus text i dos buttons amb el mateix text però amb funció diferent</h2>
+    <p>Codi:</p>
+    <code>
+        <pre>
+            &lt;form&gt;
+        &lt;input type="text"&gt;
+        &lt;input type="name" value="Enviar"&gt;
+        &lt;button&gt;Enviar amb button&lt;/button&gt;
+    &lt;/form&gt;
+    </pre>
+    </code>
+    <p>Resultat:</p>
+    <form>
+        <input type="text">
+        <input type="name" value="Enviar">
+        <button>Enviar amb button</button>
+    </form>
+    <h2>Input tipus text i dos buttons amb diferent text i funció</h2>
+    <p>Codi:</p>
+    <code>
+    <pre>&lt;form&gt;
+        &lt;input type="text"&gt;
+        &lt;input type="submit" value="Enviar input amb submit"&gt;
+        &lt;button>Enviar amb button&lt;/button&gt;
+    &lt;/form&gt;
+    </pre>
+    </code>
+    <p>Resultat:</p>
+    <form>
+        <input type="text">
+        <input type="submit" value="Enviar input amb submit">
+        <button>Enviar amb button</button>
+    </form>
+
+</body>
+</html>

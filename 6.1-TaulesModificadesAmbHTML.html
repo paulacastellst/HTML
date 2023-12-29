@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taules modificades amb HTML</title>
+</head>
+
+<body>
+
+    <p><a href="/index.html">Anar a l'index</a></p>
+
+    <h1>MODIFICACIONS DE LES TAULES HTML</h1>
+
+    <p>L'estructura bàsica d'una taula en HTML es pot completar afegint més etiquetes i es pot millorar afegint
+        atributs.</p>
+
+    <h2>ATRIBUTS DE &lt;table&gt;</h2>
+    <p>És una mala praxis intentar modificar les taules HTML fent servir els atributs que pot o podria suportar
+        l'etiqueta
+        table. Aquests atributs es poden utilitzar però han quedat obsolets. Els principals atributs que pot portar són:
+    </p>
+    <ul>
+        <li><a href="#border">atribut border</a></li>
+        <li><a href="#align">atribut align</a></li>
+        <li><a href="#bgcolor">atribut bgcolor</a></li>
+        <li><a href="#width">atribut width</a></li>
+        <li><a href="#cellspacing">atribut cellspacing</a></li>
+        <li><a href="#cellpadding">atribut cellpadding</a></li>
+    </ul>
+
+    <h3 id="border"> Atribut border</h3>
+    <table border="2">
+
+        <tr>
+            <td>Hora</td>
+            <td>Dilluns</td>
+            <td>Dimarts</td>
+            <td>Dimecres</td>
+            <td>Dijous</td>
+            <td>Divendres</td>
+        </tr>
+        <tr>
+            <td>8:30 - 9:25</td>
+            <td>Programació</td>
+            <td>Dibuix</td>
+            <td>Català</td>
+            <td>Dibuix</td>
+            <td>Mates aplicades</td>
+        </tr>
+        <tr>
+            <td>9:25 - 10:20</td>
+            <td>Català </td>
+            <td>Mates aplicades</td>
+            <td>Fisica</td>
+            <td>E.F.</td>
+            <td>Programació</td>
+        </tr>
+        <tr>
+            <td>10:20 - 11:15</td>
+            <td>Mates</td>
+            <td>Anglès</td>
+            <td>Mates</td>
+            <td>Reptes FiQ</td>
+            <td>Fisica</td>
+        </tr>
+        <tr>
+            <td>11:15 - 11:45</td>
+            <td>Pati</td>
+            <td>Pati</td>
+            <td>Pati</td>
+            <td>Pati</td>
+            <td>Pati</td>
+        </tr>
+        <tr>
+            <td>11:45 - 12:15</td>
+            <td>ILEC</td>
+            <td>ILEC</td>
+            <td>ILEC</td>
+            <td>ILEC</td>
+            <td>ILEC</td>
+        </tr>
+        <tr>
+            <td>12:15 - 13:10</td>
+            <td>Filosofia</td>
+            <td>Reptes FiQ</td>
+            <td>Filosofia</td>
+            <td>Mates</td>
+            <td>Dibuix Tècnic</td>
+        </tr>
+        <tr>
+            <td>13:10 - 14:05</td>
+            <td>Anglès</td>
+            <td>Fisica</td>
+            <td>Tutoria</td>
+            <td>Castellà </td>
+            <td>Anglès</td>
+        </tr>
+        <tr>
+            <td>14:05 - 15:00</td>
+            <td>Castellà </td>
+            <td>E.F.</td>
+            <td>Programació</td>
+            <td>Mates aplicades</td>
+            <td>Reptes FiQ</td>
+        </tr>
+    </table>
+    <h3 id="align">Atribut aling</h3>
+    <table aling="center">
+        <tr>
+            <td>Hora</td>
+            <td>Dilluns</td>
+            <td>Dimarts</td>
+            <td>Dimecres</td>
+            <td>Dijous</td>
+            <td>Divendres</td>
+        </tr>
+        <tr>
+            <td>8:30 - 9:25</td>
+            <td>Programació</td>
+            <td>Fí­sica</td>
+            <td>Català</td>
+            <td>Fí­sica</td>
+            <td>Mates aplicades</td>
+        </tr>
+        <tr>
+            <td>9:25 - 10:20</td>
+            <td>Català </td>
+            <td>Mates aplicades</td>
+            <td>Tecnologia</td>
+            <td>E.F.</td>
+            <td>Programació</td>
+        </tr>
+        <tr>
+            <td>10:20 - 11:15</td>
+            <td>Mates</td>
+            <td>Anglès</td>
+            <td>Mates</td>
+            <td>Reptes FiQ</td>
+            <td>Tecnologia</td>
+        </tr>
+        <tr>
+            <td>11:15 - 11:45</td>
+            <td>Pati</td>
+            <td>Pati</td>
+            <td>Pati</td>
+            <td>Pati</td>
+            <td>Pati</td>
+        </tr>
+        <tr>
+            <td>11:45 - 12:15</td>
+            <td>ILEC</td>
+            <td>ILEC</td>
+            <td>ILEC</td>
+            <td>ILEC</td>
+            <td>ILEC</td>
+        </tr>
+        <tr>
+            <td>12:15 - 13:10</td>
+            <td>Filosofia</td>
+            <td>Reptes FiQ</td>
+            <td>Filosofia</td>
+            <td>Mates</td>
+            <td>Fí­sica</td>
+        </tr>
+        <tr>
+            <td>13:10 - 14:05</td>
+            <td>Anglès</td>
+            <td>Tecnologia</td>
+            <td>Tutoria</td>
+            <td>Castellà </td>
+            <td>Anglès</td>
+        </tr>
+        <tr>
+            <td>14:05 - 15:00</td>
+            <td>Castellà </td>
+            <td>E.F.</td>
+            <td>Programació</td>
+            <td>Mates aplicades</td>
+            <td>Reptes FiQ</td>
+        </tr>
+     </table>
+     
+    <h3 id="bgcolor">Atribut BGCOLOR</h3>
+     <table bgcolor="orange">
+         <tr>
+             <td>Hora</td>
+             <td>Dilluns</td>
+             <td>Dimarts</td>
+             <td>Dimecres</td>
+             <td>Dijous</td>
+             <td>Divendres</td>
+         </tr>
+         <tr>
+             <td>8:30 - 9:25</td>
+             <td>Programació</td>
+             <td>Fí­sica</td>
+             <td>Català</td>
+             <td>Fí­sica</td>
+             <td>Mates aplicades</td>
+         </tr>
+         <tr>
+             <td>9:25 - 10:20</td>
+             <td>Català </td>
+             <td>Mates aplicades</td>
+             <td>Tecnologia</td>
+             <td>E.F.</td>
+             <td>Programació</td>
+         </tr>
+         <tr>
+             <td>10:20 - 11:15</td>
+             <td>Mates</td>
+             <td>Anglès</td>
+             <td>Mates</td>
+             <td>Reptes FiQ</td>
+             <td>Tecnologia</td>
+         </tr>
+         <tr>
+             <td>11:15 - 11:45</td>
+             <td>Pati</td>
+             <td>Pati</td>
+             <td>Pati</td>
+             <td>Pati</td>
+             <td>Pati</td>
+         </tr>
+         <tr>
+             <td>11:45 - 12:15</td>
+             <td>ILEC</td>
+             <td>ILEC</td>
+             <td>ILEC</td>
+             <td>ILEC</td>
+             <td>ILEC</td>
+         </tr>
+         <tr>
+             <td>12:15 - 13:10</td>
+             <td>Filosofia</td>
+             <td>Reptes FiQ</td>
+             <td>Filosofia</td>
+             <td>Mates</td>
+             <td>Fí­sica</td>
+         </tr>
+         <tr>
+             <td>13:10 - 14:05</td>
+             <td>Anglès</td>
+             <td>Tecnologia</td>
+             <td>Tutoria</td>
+             <td>Castellà </td>
+             <td>Anglès</td>
+         </tr>
+         <tr>
+             <td>14:05 - 15:00</td>
+             <td>Castellà </td>
+             <td>E.F.</td>
+             <td>Programació</td>
+             <td>Mates aplicades</td>
+             <td>Reptes FiQ</td>
+         </tr>
+      </table>
+
+      <h3 id="widt">Atribut widt</h3>
+      <table width="50%">
+          <tr>
+              <td>Hora</td>
+              <td>Dilluns</td>
+              <td>Dimarts</td>
+              <td>Dimecres</td>
+              <td>Dijous</td>
+              <td>Divendres</td>
+          </tr>
+          <tr>
+              <td>8:30 - 9:25</td>
+              <td>Programació</td>
+              <td>Fí­sica</td>
+              <td>Català</td>
+              <td>Fí­sica</td>
+              <td>Mates aplicades</td>
+          </tr>
+          <tr>
+              <td>9:25 - 10:20</td>
+              <td>Català </td>
+              <td>Mates aplicades</td>
+              <td>Tecnologia</td>
+              <td>E.F.</td>
+              <td>Programació</td>
+          </tr>
+          <tr>
+              <td>10:20 - 11:15</td>
+              <td>Mates</td>
+              <td>Anglès</td>
+              <td>Mates</td>
+              <td>Reptes FiQ</td>
+              <td>Tecnologia</td>
+          </tr>
+          <tr>
+              <td>11:15 - 11:45</td>
+              <td>Pati</td>
+              <td>Pati</td>
+              <td>Pati</td>
+              <td>Pati</td>
+              <td>Pati</td>
+          </tr>
+          <tr>
+              <td>11:45 - 12:15</td>
+              <td>ILEC</td>
+              <td>ILEC</td>
+              <td>ILEC</td>
+              <td>ILEC</td>
+              <td>ILEC</td>
+          </tr>
+          <tr>
+              <td>12:15 - 13:10</td>
+              <td>Filosofia</td>
+              <td>Reptes FiQ</td>
+              <td>Filosofia</td>
+              <td>Mates</td>
+              <td>Fí­sica</td>
+          </tr>
+          <tr>
+              <td>13:10 - 14:05</td>
+              <td>Anglès</td>
+              <td>Tecnologia</td>
+              <td>Tutoria</td>
+              <td>Castellà </td>
+              <td>Anglès</td>
+          </tr>
+          <tr>
+              <td>14:05 - 15:00</td>
+              <td>Castellà </td>
+              <td>E.F.</td>
+              <td>Programació</td>
+              <td>Mates aplicades</td>
+              <td>Reptes FiQ</td>
+          </tr>
+       </table>
+       <h3 id="cellspacing">Atribut Cellspacing</h3>
+       <table border="2" cellspacing="50">
+           <tr>
+               <td>Hora</td>
+               <td>Dilluns</td>
+               <td>Dimarts</td>
+               <td>Dimecres</td>
+               <td>Dijous</td>
+               <td>Divendres</td>
+           </tr>
+           <tr>
+               <td>8:30 - 9:25</td>
+               <td>Programació</td>
+               <td>Fí­sica</td>
+               <td>Català</td>
+               <td>Fí­sica</td>
+               <td>Mates aplicades</td>
+           </tr>
+           <tr>
+               <td>9:25 - 10:20</td>
+               <td>Català </td>
+               <td>Mates aplicades</td>
+               <td>Tecnologia</td>
+               <td>E.F.</td>
+               <td>Programació</td>
+           </tr>
+           <tr>
+               <td>10:20 - 11:15</td>
+               <td>Mates</td>
+               <td>Anglès</td>
+               <td>Mates</td>
+               <td>Reptes FiQ</td>
+               <td>Tecnologia</td>
+           </tr>
+           <tr>
+               <td>11:15 - 11:45</td>
+               <td>Pati</td>
+               <td>Pati</td>
+               <td>Pati</td>
+               <td>Pati</td>
+               <td>Pati</td>
+           </tr>
+           <tr>
+               <td>11:45 - 12:15</td>
+               <td>ILEC</td>
+               <td>ILEC</td>
+               <td>ILEC</td>
+               <td>ILEC</td>
+               <td>ILEC</td>
+           </tr>
+           <tr>
+               <td>12:15 - 13:10</td>
+               <td>Filosofia</td>
+               <td>Reptes FiQ</td>
+               <td>Filosofia</td>
+               <td>Mates</td>
+               <td>Fí­sica</td>
+           </tr>
+           <tr>
+               <td>13:10 - 14:05</td>
+               <td>Anglès</td>
+               <td>Tecnologia</td>
+               <td>Tutoria</td>
+               <td>Castellà </td>
+               <td>Anglès</td>
+           </tr>
+           <tr>
+               <td>14:05 - 15:00</td>
+               <td>Castellà </td>
+               <td>E.F.</td>
+               <td>Programació</td>
+               <td>Mates aplicades</td>
+               <td>Reptes FiQ</td>
+           </tr>
+        </table>
+        <h3 id="cellpadding">Atribut cellpadding</h3>
+        <table border="2" cellpadding="20">
+            <tr>
+                <td>Hora</td>
+                <td>Dilluns</td>
+                <td>Dimarts</td>
+                <td>Dimecres</td>
+                <td>Dijous</td>
+                <td>Divendres</td>
+            </tr>
+            <tr>
+                <td>8:30 - 9:25</td>
+                <td>Programació</td>
+                <td>Fí­sica</td>
+                <td>Català</td>
+                <td>Fí­sica</td>
+                <td>Mates aplicades</td>
+            </tr>
+            <tr>
+                <td>9:25 - 10:20</td>
+                <td>Català </td>
+                <td>Mates aplicades</td>
+                <td>Tecnologia</td>
+                <td>E.F.</td>
+                <td>Programació</td>
+            </tr>
+            <tr>
+                <td>10:20 - 11:15</td>
+                <td>Mates</td>
+                <td>Anglès</td>
+                <td>Mates</td>
+                <td>Reptes FiQ</td>
+                <td>Tecnologia</td>
+            </tr>
+            <tr>
+                <td>11:15 - 11:45</td>
+                <td>Pati</td>
+                <td>Pati</td>
+                <td>Pati</td>
+                <td>Pati</td>
+                <td>Pati</td>
+            </tr>
+            <tr>
+                <td>11:45 - 12:15</td>
+                <td>ILEC</td>
+                <td>ILEC</td>
+                <td>ILEC</td>
+                <td>ILEC</td>
+                <td>ILEC</td>
+            </tr>
+            <tr>
+                <td>12:15 - 13:10</td>
+                <td>Filosofia</td>
+                <td>Reptes FiQ</td>
+                <td>Filosofia</td>
+                <td>Mates</td>
+                <td>Fí­sica</td>
+            </tr>
+            <tr>
+                <td>13:10 - 14:05</td>
+                <td>Anglès</td>
+                <td>Tecnologia</td>
+                <td>Tutoria</td>
+                <td>Castellà </td>
+                <td>Anglès</td>
+            </tr>
+            <tr>
+                <td>14:05 - 15:00</td>
+                <td>Castellà </td>
+                <td>E.F.</td>
+                <td>Programació</td>
+                <td>Mates aplicades</td>
+                <td>Reptes FiQ</td>
+            </tr>
+         </table>
+    <h2>ETIQUETES I ATRIBUTS IMPORTANTS</h2>
+
+    <h3>&lt;caption&gt; [títol de la taula]</h3>
+    <table>
+        <caption>Horari Paula</caption>
+        <tr>
+            <td>Hora</td>
+            <td>Dilluns</td>
+            <td>Dimarts</td>
+            <td>Dimecres</td>
+            <td>Dijous</td>
+            <td>Divendres</td>
+        </tr>
+        <tr>
+            <td>8:30-9:25</td>
+            <td>Programació</td>
+            <td>Dibuix Tècnic</td>
+            <td>Català</td>
+            <td>Dibuix Tècnic</td>
+            <td>Mates aplicades</td>
+        </tr>
+        <tr>
+            <td>9:25-10:20</td>
+            <td>Català</td>
+            <td>Mates aplicades</td>
+            <td>Fisica</td>
+            <td>E.F</td>
+            <td>Programació</td>
+        </tr>
+        <tr>
+            <td>10:20-11:15</td>
+            <td>Mates</td>
+            <td>Anglès</td>
+            <td>Mates</td>
+            <td>Nose</td>
+            <td>Fisica</td>
+        </tr>
+        <tr>
+            <td>11:15-11:45</td>
+            <td>Pati</td>
+            <td>Pati</td>
+            <td>Pati</td>
+            <td>Pati</td>
+            <td>Pati</td>
+        </tr>
+        <tr>
+            <td>11:45-12:15</td>
+            <td>ILEC</td>
+            <td>ILEC</td>
+            <td>ILEC</td>
+            <td>ILEC</td>
+            <td>ILEC</td>
+        </tr>
+        <tr>
+            <td>12:15-13:10</td>
+            <td>Filo</td>
+            <td>Nose</td>
+            <td>Filo</td>
+            <td>Mates</td>
+            <td>Dibuix Tecnic</td>
+        </tr>
+        <tr>
+            <td>13:10-14:05</td>
+            <td>Angles</td>
+            <td>Fisica</td>
+            <td>Tutoria</td>
+            <td>Castellà</td>
+            <td>Anglès</td>
+        </tr>
+        <tr>
+            <td>14:05-15:00</td>
+            <td>Castellà</td>
+            <td>E.F</td>
+            <td>Programació</td>
+            <td>Mates aplicades</td>
+            <td>Reptes FiQ</td>
+        </tr>
+    </table>
+    <h3>&lt;thead&gt;[table head], &lt;th&gt;[table head], &lt;tbody&gt;[table body] i &lt;tfoot&gt;[table foot]</h3>
+<table>
+    <thead>
+    <tr>
+        <th>Hora</th>
+        <th>Dilluns</th>
+        <th>Dimarts</th>
+        <th>Dimecres</t>
+        <th>Dijous</th>
+        <th>Divendres</th>
+    </tr>
+    <tr>
+        <th>8:30-9:25</th>
+        <th>Programació</th>
+        <th>Dibuix Tècnic</th>
+        <th>Català</th>
+        <th>Dibuix Tècnic</th>
+        <th>Mates aplicades</th>
+    </tr>
+    <tr>
+        <th>9:25-10:20</th>
+        <th>Català</th>
+        <th>Mates aplicades</th>
+        <th>Fisica</th>
+        <th>E.F</th>
+        <th>Programació</th>
+    </tr>
+    <tr>
+        <th>10:20-11:15</td>
+        <th>Mates</td>
+        <th>Anglès</td>
+        <th>Mates</td>
+        <th>Nose</td>
+        <th>Fisica</td>
+    </tr>
+    <tr>
+        <td>11:15-11:45</th>
+        <td>Pati</th>
+        <td>Pati</th>
+        <td>Pati</th>
+        <td>Pati</th>
+        <td>Pati</th>
+    </tr>
+    <tr>
+        <th>11:45-12:15</th>
+        <th>ILEC</th>
+        <th>ILEC</th>
+        <th>ILEC</th>
+        <th>ILEC</th>
+        <th>ILEC</th>
+    </tr>
+    <tr>
+        <th>12:15-13:10</th>
+        <th>Filo</th>
+        <th>Nose</th>
+        <th>Filo</th>
+        <th>Mates</th>
+        <th>Dibuix Tecnic</th>
+    </tr>
+    <tr>
+        <th>13:10-14:05</th>
+        <th>Angles</th>
+        <th>Fisica</th>
+        <th>Tutoria</th>
+        <th>Castellà</th>
+        <th>Anglès</th>
+    </tr>
+    <tr>
+        <th>14:05-15:00</th>
+        <th>Castellà</th>
+        <th>E.F</th>
+        <th>Programació</th>
+        <th>Mates aplicades</th>
+        <th>Reptes FiQ</th>
+    </tr>
+</thead>
+<tfoot><td>peu de pagina</td></tfoot>
+</table>
+<h3>color group</h3>
+<table>
+    <tr>
+        <td>Hora</td>
+        <td>Dilluns</td>
+        <td>Dimarts</td>
+        <td>Dimecres</td>
+        <td>Dijous</td>
+        <td>Divendres</td>
+    </tr>
+    <tr>
+        <td>8:30 - 9:25</td>
+        <td>Programació</td>
+        <td>Dibuix</td>
+        <td>Català</td>
+        <td>Dibuix</td>
+        <td>Mates aplicades</td>
+    </tr>
+    <tr>
+        <td>9:25 - 10:20</td>
+        <td>Català </td>
+        <td>Mates aplicades</td>
+        <td>Fisica</td>
+        <td>E.F.</td>
+        <td>Programació</td>
+    </tr>
+    <tr>
+        <td>10:20 - 11:15</td>
+        <td>Mates</td>
+        <td>Anglès</td>
+        <td>Mates</td>
+        <td>Reptes FiQ</td>
+        <td>Fisica</td>
+    </tr>
+    <tr>
+        <td>11:15 - 11:45</td>
+        <td>Pati</td>
+        <td>Pati</td>
+        <td>Pati</td>
+        <td>Pati</td>
+        <td>Pati</td>
+    </tr>
+    <tr>
+        <td>11:45 - 12:15</td>
+        <td>ILEC</td>
+        <td>ILEC</td>
+        <td>ILEC</td>
+        <td>ILEC</td>
+        <td>ILEC</td>
+    </tr>
+    <tr>
+        <td>12:15 - 13:10</td>
+        <td>Filosofia</td>
+        <td>Reptes FiQ</td>
+        <td>Filosofia</td>
+        <td>Mates</td>
+        <td>Dibuix Tècnic</td>
+    </tr>
+    <tr>
+        <td>13:10 - 14:05</td>
+        <td>Anglès</td>
+        <td>Fisica</td>
+        <td>Tutoria</td>
+        <td>Castellà </td>
+        <td>Anglès</td>
+    </tr>
+    <tr>
+        <td>14:05-15:00</td>
+        <td>Castellà</td>
+        <td>E.F</td>
+        <td>Programació</td>
+        <td>Mates Aplicades </td>
+        <td>Reptes de FiQ</td>
+    </tr>
+    
+</table>
+<h3>Programació 2h</h3>
+<table border="2"> 
+<tr>
+    <tr>
+        <td>Hora</td>
+        <td>Dilluns</td>
+        <td>Dimarts</td>
+        <td>Dimecres</td>
+        <td>Dijous</td>
+        <td>Divendres</td>
+    </tr>
+    <tr>
+        <td>8:30 - 9:25</td>
+        <td rowspan="2">Programació</td>
+        <td>Dibuix</td>
+        <td>Català</td>
+        <td>Dibuix</td>
+        <td rowspan="2">Programació</td>
+    </tr>
+    <tr>
+        <td>9:25 - 10:20</td>
+        <td>Mates aplicades</td>
+        <td>Fisica</td>
+        <td>E.F.</td>
+    </tr>
+    <tr>
+        <td>10:20 - 11:15</td>
+        <td>Mates</td>
+        <td>Anglès</td>
+        <td>Mates</td>
+        <td>Reptes FiQ</td>
+        <td>Fisica</td>
+    </tr>
+    <tr>
+        <td>11:15 - 11:45</td>
+        <td colspan="5" align="center">Pati</td>
+    </tr>
+    <tr>
+        <td>11:45 - 12:15</td>
+        <td>ILEC</td>
+        <td>ILEC</td>
+        <td>ILEC</td>
+        <td>ILEC</td>
+        <td>ILEC</td>
+    </tr>
+    <tr>
+        <td>12:15 - 13:10</td>
+        <td>Filosofia</td>
+        <td>Reptes FiQ</td>
+        <td>Filosofia</td>
+        <td>Mates</td>
+        <td>Dibuix Tècnic</td>
+    </tr>
+    <tr>
+        <td>13:10 - 14:05</td>
+        <td>Anglès</td>
+        <td>Fisica</td>
+        <td>Tutoria</td>
+        <td>Castellà </td>
+        <td>Anglès</td>
+    </tr>
+    <td>14:05-15:00</td>
+    <td>Castellà</td>
+    <td>E.F</td>
+    <td>Programació</td>
+    <td>Mates Aplicades </td>
+    <td>Reptes de FiQ</td>
+</tr>
+</table>
+<h3>color group</h3>
+<table>
+    <colorgroup>
+        <col
+        style="background-color: darkseagreen;"span="1">
+        <col style="background-color: darkgray;" span="5">
+    </colorgroup>
+    <tr>
+        <td>Hora</td>
+        <td>Dilluns</td>
+        <td>Dimarts</td>
+        <td>Dimecres</td>
+        <td>Dijous</td>
+        <td>Divendres</td>
+    </tr>
+    <tr>
+        <td>8:30 - 9:25</td>
+        <td>Programació</td>
+        <td>Dibuix</td>
+        <td>Català</td>
+        <td>Dibuix</td>
+        <td>Mates aplicades</td>
+    </tr>
+    <tr>
+        <td>9:25 - 10:20</td>
+        <td>Català </td>
+        <td>Mates aplicades</td>
+        <td>Fisica</td>
+        <td>E.F.</td>
+        <td>Programació</td>
+    </tr>
+    <tr>
+        <td>10:20 - 11:15</td>
+        <td>Mates</td>
+        <td>Anglès</td>
+        <td>Mates</td>
+        <td>Reptes FiQ</td>
+        <td>Fisica</td>
+    </tr>
+    <tr>
+        <td>11:15 - 11:45</td>
+        <td>Pati</td>
+        <td>Pati</td>
+        <td>Pati</td>
+        <td>Pati</td>
+        <td>Pati</td>
+    </tr>
+    <tr>
+        <td>11:45 - 12:15</td>
+        <td>ILEC</td>
+        <td>ILEC</td>
+        <td>ILEC</td>
+        <td>ILEC</td>
+        <td>ILEC</td>
+    </tr>
+    <tr>
+        <td>12:15 - 13:10</td>
+        <td>Filosofia</td>
+        <td>Reptes FiQ</td>
+        <td>Filosofia</td>
+        <td>Mates</td>
+        <td>Dibuix Tècnic</td>
+    </tr>
+    <tr>
+        <td>13:10 - 14:05</td>
+        <td>Anglès</td>
+        <td>Fisica</td>
+        <td>Tutoria</td>
+        <td>Castellà </td>
+        <td>Anglès</td>
+    </tr>
+    <tr>
+        <td>14:05-15:00</td>
+        <td>Castellà</td>
+        <td>E.F</td>
+        <td>Programació</td>
+        <td>Mates Aplicades </td>
+        <td>Reptes de FiQ</td>
+    </tr>
+
+</table>
+</body>
+</html>

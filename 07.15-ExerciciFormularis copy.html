@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCB_Formulari d'informació personal jugadors</title>
+</head>
+<body>
+    <h1 style="color:rgb(112, 166, 219)"><b>Futbol Club Barcelona</b></h1>
+    <h2>Formulari d'informació personal</h2>
+    
+    <form>
+        <fieldset>
+           <legend>Dades personals</legend>
+           <label for="name">Nom</label>
+           <input type="text" id="name">
+           <label for="surname">Cognom</label>
+           <input type="text" id="surname">
+           <label for="adress">Adreça completa</label>
+           <input type="text" id="adress">
+        </fieldset>
+        
+        <h4>Inserex data de naixament</h4>
+        <input type="date">
+        
+        <h4>Insereix gènere:</h4>
+        <label>Masculí</label>
+        <input type="radio" name="gender" value="male">
+        <label>Femení</label>
+        <input type="radio" name="gender" value="female">
+        <label>No binari</label>
+        <input type="radio" name="gender" value="no binari">
+        
+        <h4>Insereix estat civil:</h4>
+        <label>Solter</label>
+        <input type="radio" name="estatcivil" value="solter" required checked>
+        <label>Amb parella</label>
+        <input type="radio" name="estatcivil" value="amb parella">
+        <label>Casat</label>
+        <input type="radio" name="estatcivil" value="casat">
+        
+        <label for="email">Insereix el teu  email:</label>
+        <input type="email" id="email" pattern=".+@example\.com" size="30" required />
+
+        <h4>Insereix numero de movil:</h4>
+        <label>Numero movil amb 9 xifres</label>
+        <input type="text" maxlength="9">
+
+        <h4>Insereix dades de xarxes socials:</h4>
+        <label>Instagram</label>
+        <input type="text" value="@" size="25">
+        <div>
+        <label>Twitter</label>
+        <input type="text" value="@" size="25">
+        <h4>Tria la preferencia de posició:</h4>
+        <label for="posicions"></label>
+        <label>Defensa centra</label>
+        <input type="checkbox" name="lenguages" value="CCS"><br>
+        <label>Lateral</label>
+        <input type="checkbox" name="lenguages" value="CCS"><br>
+        <label>Migcampista</label>
+        <input type="checkbox" name="lenguages" value="CCS"><br>
+        <label>Devanter centre</label>
+        <input type="checkbox" name="lenguages" value="CCS"><br>
+        <label>Extrem</label>
+        <input type="checkbox" name="lenguages" value="JS"><br>
+        
+        <h4>Introdueix foto del carnet</h4>
+        <input type="file" name="photo" id="photo">
+       
+        <h4>Color preferent del armari:</h4>
+        <input type="color">
+
+        <h4>Setmana de l'any prefereixen fer el viatge final de temporada:</h4>
+        <input type="week">
+
+        <div>
+            <button>Enviar</button>
+        </div>
+
+       </form>
+       
+    
+
+    
+
+</body>
+</html>

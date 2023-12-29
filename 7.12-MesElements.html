@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Més Elements</title>
+</head>
+<body>
+    <h1>Més Elements</h1>
+    <h2>Etiqueta Fieldset</h2>
+    <p>S'utilitza per agrupar elements dins d'un formulari. Es fa servir l'etiqueta fiedset i també l'etqiueta de legend que permet posar un nom al contingut del fiedset. Tñe etiqueta d'inici i tencament. </p>
+
+    <pre>
+        <code>
+            &lt;form&gt;
+             &lt;fieldset>
+                &lt;legend>Ddes personals&lt;/legend&gt;
+                &lt;label for="name"&gt;Nom&lt;/label&gt;
+                &lt;input type="text" id="name"&gt;
+                &lt;label for="surname">Cognom&lt;/label&gt;
+                &lt;input type="text" id="surname"&gt;
+             &lt;/fieldset&gt;
+            &lt;/form&gt;
+
+        </code>
+    </pre>
+         <form>
+             <fieldset>
+                <legend>Ddes personals</legend>
+                <label for="name">Nom</label>
+                <input type="text" id="name">
+                <label for="surname">Cognom</label>
+                <input type="text" id="surname">
+             </fieldset>
+        </form>
+
+    <h2>Input tipus file</h2>
+    <p>Serveix per afegir un fitxer i per enviar-ho.</p>
+    <pre>
+        <code>
+            &lt;form&gt;
+             &lt;fieldset>
+                &lt;legend>Ddes personals&lt;/legend&gt;
+                &lt;label for="name"&gt;Nom&lt;/label&gt;
+                &lt;input type="text" id="name"&gt;
+                &lt;label for="surname">Cognom&lt;/label&gt;
+                &lt;input type="text" id="surname"&gt;
+                &lt;input file="text" name="photo" id="photo"&gt;
+             &lt;/fieldset&gt;
+            &lt;/form&gt;
+
+        </code>
+    </pre>
+    <form>
+        <fieldset>
+           <legend>Ddes personals</legend>
+           <label for="name">Nom</label>
+           <input type="text" id="name">
+           <label for="surname">Cognom</label>
+           <input type="text" id="surname">
+           <input type="file" name="photo" id="photo">
+        </fieldset>
+   </form>
+
+   <h2>Etiqueta Meter</h2>
+   <p>A part de l'atribut indispensable value, porta atribut min, max, low, high i optimum</p>
+   <pre>
+    <code>
+        &lt;form&gt;
+            &lt;label for="fuel"&gt;Combustible&lt;/label&gt;
+            &lt;meter id="fuel" min="0" max="100" value="90" low="25" high="75" optimum="100"&gt;&lt;/meter&gt;
+           &lt;/form&gt;
+    </code>
+   </pre>
+   
+    <form>
+    <label for="fuel">Combustible</label>
+    <meter id="fuel" min="0" max="100" value="23" low="25" high="75" optimum="100"></meter>
+   </form>
+   <p>Value es el valor de una determinada cosa, low es que esta molt baix, high mitjà i otimum es el màxim</p>
+
+   <h2>Etiqueta Progress</h2>
+   <p>Té etiqueta d'obertura i tencament. Crea una barra de progressió en funció dels atributs value i max.</p>
+   <code>
+    <pre>
+        &lt;form&gt;
+            &lt;label for="task"&gt;Tasca 1&lt;/label&gt;
+            &lt;progress id="task" max="100" value="60">&lt;/progress&gt;
+        &lt;/form&gt;
+    </pre>
+   </code>
+
+   <form>
+    <label for="task">Tasca 1</label>
+    <progress id="task" max="100" value="35"></progress>
+   </form>
+   
+   <form>
+    <label for="task">Tasca 2</label>
+    <progress id="task" max="100" value="90"></progress>
+   </form>
+   
+   <p>Una bona pràctica, és treballar amb percentatges. Dues barres, una ambb max=200 i l'atre de max=100 tenen mateixa longitud. (Tasca 1 max=100)(Tasca 2 max=200)</p>
+   
+   Aquest value es cambia segons accions, id hauria cambiar task 1
+
+   <h2>Etiqueta Textarea</h2>
+   <p>Porta atributs cols i rows amb nombres numerics</p>
+   <code>
+    <pre>
+        &lt;form&gt;
+            &lt;div&gt;
+                &lt;label for="message">Escriu el teu missatge&lt;/label&gt;
+            &lt;/div&gt;
+                 &lt;textarea name="" id="message" cols="80" rows="20"&gt;&lt;/textarea&gt;
+           &lt;/form&gt;
+    </pre>
+   </code>
+   
+    <form>
+    <div>
+        <label for="message">Escriu el teu missatge</label>
+    </div>
+         <textarea name="" id="message" cols="80" rows="20"></textarea>
+   </form>
+
+
+</body>
+</html>
